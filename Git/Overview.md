@@ -33,6 +33,7 @@
 >>・ブランチを最新の状態にする    <br>
 >> git pull origin main   <br>
 <br>
+
 **②新しいブランチを作成（ブランチ名はなんでも）**   <br>
 　-git checkout -b newブランチ名   <br>
 <br>
@@ -44,17 +45,21 @@
 ---
 
 <br>
+
 **③変更を追加**. <br>    
 　-git add .   <br> 
 　-git commit .   <br>
 <br>
+
 **④リモートへプッシュ（先程作成したブランチ名（＝作業中のブランチ名））**. <br>
 　-git push origin newブランチ名   <br>
 <br>
+
 **⑤GitHubへ移動、プルリクエストをする**. <br>
 　Pullrequestタブからnew pull request ➞create pull request <br>  
 　依頼したい人を選択して送信（なければなし）    <br>
 <br>
+
 **⑥プルリクエストの確認**. <br>
 　Filechangedタブから変更を確認、Conversationからマージ（Merge Pullrequest）    <br>
 　マージ後はデリートブランチ    <br>
