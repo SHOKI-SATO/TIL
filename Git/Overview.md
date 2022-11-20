@@ -46,7 +46,6 @@
 ---
 
 <br>
-<br>
 ③変更を追加<br>    
 　-git add .   <br> 
 　-git commit .   <br>
@@ -70,10 +69,10 @@
 ### ▼後作業
 
 ①ローカルでmainブランチに切り替える<br>    
-　-git checkout main    <br>
+　-git checkout main <br>
 <br>
-②ローカルに最新のリモート（meinブランチ）を取り込む    <br>
+②ローカルに最新のリモート（meinブランチ）を取り込む  <br>
 　-git pull origin main   <br>
 <br>
-③ローカルのnewブランチ名（先程使ったブランチ）を削除    <br>
+③ローカルのnewブランチ名（先程使ったブランチ）を削除  <br>
 　-git branch -d newブランチ名   <br>
