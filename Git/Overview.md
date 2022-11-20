@@ -20,23 +20,21 @@
 ①リモートをコピー   <br>
 　-git clone URL<br>
 <br>
-もしくは（すでにフォルダ作成済の場合は） <br>
+>もしくは（すでにフォルダ作成済の場合は） <br>
 <br>
-＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝ <br>  
-><br>
->・ローカルにリモートリポジトリを新規追加    <br>
->git remote add origin URL    <br>
-><br>
->・現在のブランチがmainブランチであることの確認<br>   
-> git branch   <br>
->（違うブランチの場合は git checkout main でブランチ切り替える）   <br>
-><br>
->・現在のブランチのファイルに変更がないことを確認    <br>
-> git status   <br>
-><br>
->・ブランチを最新の状態にする    <br>
-> git pull origin main   <br>
->＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝   <br>
+>><br>
+>>・ローカルにリモートリポジトリを新規追加    <br>
+>>git remote add origin URL    <br>
+>><br>
+>>・現在のブランチがmainブランチであることの確認<br>   
+>> git branch   <br>
+>>（違うブランチの場合は git checkout main でブランチ切り替える）   <br>
+>><br>
+>>・現在のブランチのファイルに変更がないことを確認    <br>
+>> git status   <br>
+>><br>
+>>・ブランチを最新の状態にする    <br>
+>> git pull origin main   <br>
 <br>
 ②新しいブランチを作成（ブランチ名はなんでも）   <br>
 　-git checkout -b newブランチ名   <br>
