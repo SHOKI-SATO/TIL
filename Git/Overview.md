@@ -15,7 +15,7 @@
 
 ### ▼具体的な流れ
 
-**①リモートをコピー**   <br>
+**①リモートをコピー**. <br>
 　-git clone URL<br>
 <br>
 >もしくは（すでにフォルダ作成済の場合は） <br>
@@ -44,18 +44,18 @@
 ---
 
 <br>
-**③変更を追加**<br>    
+**③変更を追加**. <br>    
 　-git add .   <br> 
 　-git commit .   <br>
 <br>
-**④リモートへプッシュ（先程作成したブランチ名（＝作業中のブランチ名））**   <br>
+**④リモートへプッシュ（先程作成したブランチ名（＝作業中のブランチ名））**. <br>
 　-git push origin newブランチ名   <br>
 <br>
-**⑤GitHubへ移動、プルリクエストをする**   <br>
+**⑤GitHubへ移動、プルリクエストをする**. <br>
 　Pullrequestタブからnew pull request ➞create pull request <br>  
 　依頼したい人を選択して送信（なければなし）    <br>
 <br>
-**⑥プルリクエストの確認**   <br>
+**⑥プルリクエストの確認**. <br>
 　Filechangedタブから変更を確認、Conversationからマージ（Merge Pullrequest）    <br>
 　マージ後はデリートブランチ    <br>
 <br>
@@ -65,11 +65,11 @@
 
 ### ▼後作業
 
-**①ローカルでmainブランチに切り替える**<br> 
+**①ローカルでmainブランチに切り替える**. <br> 
 　-git checkout main <br>
 <br>
-**②ローカルに最新のリモート（meinブランチ）を取り込む**  <br>
+**②ローカルに最新のリモート（meinブランチ）を取り込む**. <br>
 　-git pull origin main   <br>
 <br>
-**③ローカルのnewブランチ名（先程使ったブランチ）を削除**  <br>
+**③ローカルのnewブランチ名（先程使ったブランチ）を削除**. <br>
 　-git branch -d newブランチ名   <br>
