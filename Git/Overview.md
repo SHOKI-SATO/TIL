@@ -17,7 +17,6 @@
 
 ### ▼具体的な流れ
 
-<br>
 ・リモートをコピー   <br>
 　-git clone URL<br>
 <br>
@@ -68,7 +67,6 @@
 
 ### ▼後作業
 
-<br>
 ・ローカルでmainブランチに切り替える<br>    
 　-git checkout main    <br>
 <br>
