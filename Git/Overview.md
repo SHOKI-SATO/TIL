@@ -1,6 +1,5 @@
-#Gitの流れ<br>
+# Gitの流れ<br>
 <br>
-
 **●ローカル→リモートの流れ** <br>
 &ensp;1.ローカルにリモートリポジトリを作成（git remote add）   <br>
 &ensp;2.ローカルリポジトリを最新化(git pull)   <br>
