@@ -3,23 +3,13 @@
 
 ### ▼ローカル→リモートの流れ
 
-&ensp;①ローカルにリモートリポジトリを作成（
-**git remote add origin URL**
-）   <br>
-&ensp;②ローカルリポジトリを最新化(
-**git pull**
-) <br>
-&ensp;③ローカルのファイルをワークツリーへステージング（
-**git add**
-）　<br>
-&ensp;④ステージングファイルをローカルリポジトリへコミット（
-**git commit**
-） <br>
-&ensp;⑤ローカルリポジトリをリモートリポジトリへプッシュ（
-**git push origin newブランチ名**
-）    <br>
-&ensp;⑥GitHubへ移動しプルリクエスト   <br>
-&ensp;(⑦プルリクエストの確認（**マージ後はデリートブランチ**）)<br>
+&ensp;**①ローカルにリモートリポジトリを作成**（git remote add origin URL）<br>
+&ensp;**②ローカルリポジトリを最新化**(git pull) <br>
+&ensp;**③ローカルのファイルをワークツリーへステージング**（git add）　<br>
+&ensp;**④ステージングファイルをローカルリポジトリへコミット**（git commit）<br>
+&ensp;**⑤ローカルリポジトリをリモートリポジトリへプッシュ**（git push origin newブランチ名）<br>
+&ensp;**⑥GitHubへ移動しプルリクエスト**<br>
+&ensp;(**⑦プルリクエストの確認**（マージ後はデリートブランチ）)<br>
 <br>
 <br>
 
