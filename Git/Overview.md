@@ -29,14 +29,14 @@
 　>-git remote add origin URL    <br>
 ><br>
 >・現在のブランチがmainブランチであることの確認<br>   
-　>-git branch   <br>
+> -git branch   <br>
 >（違うブランチの場合は git checkout main でブランチ切り替える）   <br>
 ><br>
 >・現在のブランチのファイルに変更がないことを確認    <br>
-　>-git status   <br>
+> -git status   <br>
 ><br>
 >・ブランチを最新の状態にする    <br>
-　>-git pull origin main   <br>
+> -git pull origin main   <br>
 >＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝   <br>
 <br>
 ②新しいブランチを作成（ブランチ名はなんでも）   <br>
