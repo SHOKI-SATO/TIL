@@ -3,7 +3,7 @@
 
 ### ▼ローカル→リモートの流れ
 
-&ensp;**①ローカルにリモートリポジトリを作成**（git remote add origin URL）<br>
+&ensp;**①ローカルにリモートリポジトリを作成**. （git remote add origin URL）<br>
 &ensp;**②ローカルリポジトリを最新化**(git pull) <br>
 &ensp;**③ローカルのファイルをワークツリーへステージング**（git add）　<br>
 &ensp;**④ステージングファイルをローカルリポジトリへコミット**（git commit）<br>
