@@ -12,8 +12,6 @@
 &ensp;(⑦プルリクエストの確認（マージ後はデリートブランチ）)<br>
 <br>
 <br>
-<br>
-<br>
 
 ### ▼具体的な流れ
 
@@ -60,7 +58,6 @@
 ⑥プルリクエストの確認   <br>
 　Filechangedタブから変更を確認、Conversationからマージ（Merge Pullrequest）    <br>
 　マージ後はデリートブランチ    <br>
-<br>
 <br>
 ※通常はすぐにデプロイ   <br>
 <br>
