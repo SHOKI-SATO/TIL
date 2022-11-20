@@ -46,7 +46,7 @@
 
 <br>
 
-**③変更を追加**. <br>    
+**③変更を追加**. <br> 
 　-git add .   <br> 
 　-git commit .   <br>
 <br>
@@ -56,8 +56,8 @@
 <br>
 
 **⑤GitHubへ移動、プルリクエストをする**. <br>
-　Pullrequestタブからnew pull request ➞create pull request <br>  
-　依頼したい人を選択して送信（なければなし）    <br>
+　Pullrequestタブからnew pull request ➞create pull request <br> 
+　依頼したい人を選択して送信（なければなし）  <br>
 <br>
 
 **⑥プルリクエストの確認**. <br>
