@@ -21,7 +21,6 @@
 　-git clone URL<br>
 <br>
 >もしくは（すでにフォルダ作成済の場合は） <br>
-<br>
 >><br>
 >>・ローカルにリモートリポジトリを新規追加    <br>
 >>git remote add origin URL    <br>
