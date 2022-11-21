@@ -11,7 +11,7 @@
 <br>
 
 **②リモートリポジトリの作成**. <br>
-　&emsp;　GitHub上で「Create new repository」<br>
+　&emsp;GitHub上で「Create new repository」<br>
 <br>
 
 **③ローカルリポジトリとリモートリポジトリの紐付け**. <br>
@@ -19,6 +19,7 @@
 ※ここで設定したリポジトリ名で、今後指定可能<br>
 <br>
 >>既存のリモートリポジトリを紐づけた場合<br>
+><br>
 >・現在のブランチがmainブランチであることの確認<br>   
 >&emsp; -git branch   <br>
 >（違うブランチの場合は git checkout main でブランチ切り替える）   <br>
