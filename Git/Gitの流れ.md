@@ -3,38 +3,34 @@
 
 ### ▼ローカル→リモートの流れ
 
-&ensp;**①ローカルにリモートリポジトリを作成**. （git remote add origin URL）<br>
-&ensp;**②ローカルリポジトリを最新化**. (git pull) <br>
-&ensp;**③ローカルのファイルをワークツリーへステージング**. （git add）　<br>
-&ensp;**④ステージングファイルをローカルリポジトリへコミット**. （git commit）<br>
-&ensp;**⑤ローカルリポジトリをリモートリポジトリへプッシュ**. （git push origin newブランチ名）<br>
-&ensp;**⑥GitHubへ移動しプルリクエスト**<br>
-&ensp;(**⑦プルリクエストの確認**. （マージ後はデリートブランチ）)<br>
-<br>
+**①ローカルリポジトリの新規作成orコピー**. <br>
+-cd フォルダ名<br>
+-mkdr フォルダ名<br>
+-git init　（作成）<br>
+git clone リポジトリURL（コピー）<br>
 <br>
 
-### ▼具体的な流れ
-
-**①リモートをコピー**. <br>
-　-git clone URL<br>
-<br>
->もしくは（すでにフォルダ作成済の場合は） <br>
->><br>
->>・ローカルにリモートリポジトリを新規追加    <br>
->>git remote add origin URL    <br>
->><br>
->>・現在のブランチがmainブランチであることの確認<br>   
->> git branch   <br>
->>（違うブランチの場合は git checkout main でブランチ切り替える）   <br>
->><br>
->>・現在のブランチのファイルに変更がないことを確認    <br>
->> git status   <br>
->><br>
->>・ブランチを最新の状態にする    <br>
->> git pull origin main   <br>
+**②リモートリポジトリの作成**. <br>
+　　GitHub上で「Create new repository」<br>
 <br>
 
-**②新しいブランチを作成（ブランチ名はなんでも）**   <br>
+**③ローカルリポジトリとリモートリポジトリの紐付け**. <br>
+-git remote add リモートリポジトリ名（任意）　　リポジトリURL<br>
+※ここで設定したリポジトリ名で、今後指定可能<br>
+<br>
+>>既存のリモートリポジトリを紐づけた場合
+>・現在のブランチがmainブランチであることの確認<br>   
+> git branch   <br>
+>（違うブランチの場合は git checkout main でブランチ切り替える）   <br>
+><br>
+>・現在のブランチのファイルに変更がないことを確認    <br>
+> git status   <br>
+><br>
+>・ブランチを最新の状態にする    <br>
+> git pull origin main   <br>
+<br>
+
+**④新しいブランチを作成（ブランチ名はなんでも）**   <br>
 　-git checkout -b newブランチ名   <br>
 <br>
 
@@ -46,21 +42,21 @@
 
 <br>
 
-**③変更を追加**. <br> 
+**⑤変更を追加**. <br> 
 　-git add .   <br> 
 　-git commit .   <br>
 <br>
 
-**④リモートへプッシュ（先程作成したブランチ名（＝作業中のブランチ名））**. <br>
+**⑥リモートへプッシュ（先程作成したブランチ名（＝作業中のブランチ名））**. <br>
 　-git push origin newブランチ名   <br>
 <br>
 
-**⑤GitHubへ移動、プルリクエストをする**. <br>
+**⑦GitHubへ移動、プルリクエストをする**. <br>
 　Pullrequestタブからnew pull request ➞create pull request <br> 
 　依頼したい人を選択して送信（なければなし）  <br>
 <br>
 
-**⑥プルリクエストの確認**. <br>
+**⑧プルリクエストの確認**. <br>
 　Filechangedタブから変更を確認、Conversationからマージ（Merge Pullrequest）    <br>
 　マージ後はデリートブランチ    <br>
 <br>
