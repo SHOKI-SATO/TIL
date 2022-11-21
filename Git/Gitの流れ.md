@@ -21,11 +21,11 @@
 >>既存のリモートリポジトリを紐づけた場合<br>
 ><br>
 >・現在のブランチがmainブランチであることの確認<br>   
->&emsp; -git branch   <br>
->（違うブランチの場合は git checkout main でブランチ切り替える）   <br>
+>&emsp; -git branch<br>
+>（違うブランチの場合は git checkout main でブランチ切り替える） <br>
 ><br>
 >・現在のブランチのファイルに変更がないことを確認    <br>
->&emsp;　-git status   <br>
+>&emsp;　-git status <br>
 ><br>
 >・ブランチを最新の状態にする    <br>
 >&emsp;　-git pull origin main   <br>
@@ -43,13 +43,19 @@
 
 <br>
 
-**⑤変更を追加**. <br> 
-&emsp;　-git add .   <br> 
-　&emsp;　-git commit .   <br>
+**⑤変更ファイルをステージング、コミット**. <br> 
+&emsp;　-git add ファイル名<br>
+&emsp;　-git add .<br> 
+&emsp;　-git commit ファイル名<br>
+&emsp;　-git commit .  
+&emsp;　-git commit -m "メッセージ" <br>
+&emsp;　-git commit -ｖ　&emsp;&emsp;　変更内容の確認が可能<br>
+&emsp;　-git commit .<br>
+&emsp;※エディタが開くので、メッセージを入力したら終了
 <br>
 
 **⑥リモートへプッシュ（先程作成したブランチ名（＝作業中のブランチ名））**. <br>
-　&emsp;　-git push origin newブランチ名   <br>
+　&emsp;　-git push origin newブランチ名 <br>
 <br>
 
 **⑦GitHubへ移動、プルリクエストをする**. <br>
