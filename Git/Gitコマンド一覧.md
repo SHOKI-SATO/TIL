@@ -47,7 +47,7 @@
 &ensp;`-git push` (ブランチを追跡している場合)<br>
 &ensp;`-git push origin ブランチ名` (ブランチを指定する場合)<br>
 <br>
-#### ●aｄｄの取り消し<br>
+#### ●addの取り消し<br>
 &ensp;`-git reset HEAD ファイル名` (ブランチを追跡している場合)<br>
 <br>
 #### ●commitの取り消し<br>
