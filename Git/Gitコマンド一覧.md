@@ -2,14 +2,14 @@
 <br>
 <br>
 
-#### ●初期設定<br>
+##### ●初期設定<br>
 &ensp;`-git config --global user.name "XXXX"`<br>
 &ensp;`-git config --global user.email "XXXX@hogehoge.com"`<br>
 <br>
-#### ●設定の確認<br>
+### ●設定の確認<br>
 &ensp;`-git config --list`<br>
 <br>
-#### ●ローカルリポジトリの新規作成<br>
+ **●ローカルリポジトリの新規作成**<br>
 &ensp;`-git init`<br>
 <br>
 #### ●リモートからクローン（コピー）を取得<br>
