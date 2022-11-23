@@ -8,7 +8,7 @@
 <br>
 **●設定の確認**<br>
 &ensp;`-git config`<br>
-&emsp;op:
+&emsp;op:<br>
 &emsp;--system	(Systemレベルの設定内容を対象とする)<br>
 &emsp;--global	(Globalレベルの設定内容を対象とする)<br>
 &emsp;--local	(Localレベルの設定内容を対象とする)<br>
@@ -21,6 +21,7 @@
 **●ローカルリポジトリの新規作成（配下フォルダをGitの管理下に）**<br>
 &ensp;`-git init`<br>
 &ensp;`-git init ディレクトリ名`<br>
+&emsp;op:<br>
 <br>
 **●リモートからクローン（コピー）を取得**<br>
 &ensp;`-git clone https://github.com/XXXX/XXXXXX.git`<br>
