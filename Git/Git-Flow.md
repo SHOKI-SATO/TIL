@@ -22,7 +22,7 @@
 
 ## 開発の流れ<br>
 1. 開発<br>
-  1. developブランチからfeatureブランチを切る（feature/XXXXXXブランチ）<br>
+    1. developブランチからfeatureブランチを切る（feature/XXXXXXブランチ）<br>
   ```
   git checkout develop
   git checkout -b feature/XXXXXX
@@ -30,7 +30,7 @@
   ```
   <br>
   
-  2. feature/XXXXXXブランチで開発<br>
+    2. feature/XXXXXXブランチで開発<br>
   ```
   git add
   git status
@@ -39,7 +39,7 @@
   ```
    <br>
    
-   3. 開発終了後、feature/XXXXXXブランチをdevelopブランチにマージ（ローカルリポジトリ）<br>
+     3. 開発終了後、feature/XXXXXXブランチをdevelopブランチにマージ（ローカルリポジトリ）<br>
    ```
    git checkout develop
    git pull
@@ -47,7 +47,7 @@
    ```
    <br>
    
-   4. developリポジトリをリモートにpushする（リモートブランチ）<br>
+     4. developリポジトリをリモートにpushする（リモートブランチ）<br>
    ```
    git push
    ```
