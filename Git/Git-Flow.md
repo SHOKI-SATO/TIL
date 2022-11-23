@@ -21,8 +21,8 @@
 <br>
 
 ## 開発の流れ<br>
-1.開発<br>
-  1.developブランチからfeatureブランチを切る（feature/XXXXXXブランチ）<br>
+1. 開発<br>
+  1. developブランチからfeatureブランチを切る（feature/XXXXXXブランチ）<br>
   ```
   git checkout develop
   git checkout -b feature/XXXXXX
@@ -30,7 +30,7 @@
   ```
   <br>
   
-  2.feature/XXXXXXブランチで開発<br>
+  2. feature/XXXXXXブランチで開発<br>
   ```
   git add
   git status
@@ -39,7 +39,7 @@
   ```
    <br>
    
-   3.開発終了後、feature/XXXXXXブランチをdevelopブランチにマージ（ローカルリポジトリ）<br>
+   3. 開発終了後、feature/XXXXXXブランチをdevelopブランチにマージ（ローカルリポジトリ）<br>
    ```
    git checkout develop
    git pull
@@ -47,22 +47,22 @@
    ```
    <br>
    
-   4.developリポジトリをリモートにpushする（リモートブランチ）<br>
+   4. developリポジトリをリモートにpushする（リモートブランチ）<br>
    ```
    git push
    ```
    <br>
    
-2.リリース
-   1.developブランチからreleaseブランチを切る（release-XXXXXXXブランチ）<br>
-   2.確認し、問題なければrelease-XXXXXXXブランチをdevelopブランチ、masterブランチにマージ<br>
-   3.masterブランチにタグ付け<br>
+2. リリース
+   1. developブランチからreleaseブランチを切る（release-XXXXXXXブランチ）<br>
+   2. 確認し、問題なければrelease-XXXXXXXブランチをdevelopブランチ、masterブランチにマージ<br>
+   3. masterブランチにタグ付け<br>
    <br>
  
-3.緊急対応
-   1.masterブランチからhotfixesブランチを切る（hotfixes/XXXXXXXブランチ）<br>
-   2.修正対応後、hotfixes/XXXXXXXブランチをdevelopブランチ、masterブランチにマージ<br>
-   3.masterブランチにタグ付け<br>
+3. 緊急対応
+   1. masterブランチからhotfixesブランチを切る（hotfixes/XXXXXXXブランチ）<br>
+   2. 修正対応後、hotfixes/XXXXXXXブランチをdevelopブランチ、masterブランチにマージ<br>
+   3. masterブランチにタグ付け<br>
    <br>
 <br>
 
