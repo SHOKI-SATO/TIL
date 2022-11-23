@@ -1,4 +1,13 @@
 # GitHub-Frow
 
-![代替テキスト]([https://www.google.com/url?sa=i&url=https%3A%2F%2Fatmarkit.itmedia.co.jp%2Fait%2Farticles%2F1708%2F01%2Fnews015.html&psig=AOvVaw2uiyHvpv17YDN5ctjDTzv4&ust=1669257318487000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCIDav5-iw_sCFQAAAAAdAAAAABAH](https://image.itmedia.co.jp/l/im/ait/articles/1708/01/l_at-it-git-15-009.jpg#_ga=2.136613168.182000554.1669154089-1174529931.1666507735))
+![代替テキスト](https://image.itmedia.co.jp/ait/articles/1708/01/l_at-it-git-15-009.jpg)
 
+## 6つのルール<br>
+　GitHub Flowには以下の6つのルールがあります。【ルール1】が最も重要で、それ以外のルールは【ルール1】を実現するために存在します。<br>
+<br>
+&ensp;1.masterブランチは常にデプロイ可能である<br>
+&ensp;2.作業用ブランチをmasterから作成する（例：new-oauth2-scopes）<br>
+&ensp;3.作業用ブランチを定期的にプッシュする<br>
+&ensp;4.プルリクエストを活用する<br>
+&ensp;5.プルリクエストが承認されたらmasterへマージする<br>
+&ensp;6.masterへのマージが完了したら直ちにデプロイを行う<br>
