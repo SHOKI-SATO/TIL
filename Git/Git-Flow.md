@@ -29,8 +29,7 @@
   git push -u origin feature/XXXXXX
   ```
   <br>
-  
-   2. feature/XXXXXXブランチで開発<br>
+    2. feature/XXXXXXブランチで開発<br>
   ```
   git add
   git status
@@ -38,16 +37,14 @@
   git push
   ```
    <br>
-   
-   3. 開発終了後、feature/XXXXXXブランチをdevelopブランチにマージ（ローカルリポジトリ）<br>
+    3. 開発終了後、feature/XXXXXXブランチをdevelopブランチにマージ（ローカルリポジトリ）<br>
    ```
    git checkout develop
    git pull
    git merge feature/XXXXXX
    ```
    <br>
-   
-   4. developリポジトリをリモートにpushする（リモートブランチ）<br>
+    4. developリポジトリをリモートにpushする（リモートブランチ）<br>
    ```
    git push
    ```
