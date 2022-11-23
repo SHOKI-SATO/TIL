@@ -8,7 +8,7 @@
 <br>
 **●設定の確認**<br>
 &ensp;`-git config`<br>
-&emsp;<op>
+&emsp;op:
 &emsp;--system	(Systemレベルの設定内容を対象とする)<br>
 &emsp;--global	(Globalレベルの設定内容を対象とする)<br>
 &emsp;--local	(Localレベルの設定内容を対象とする)<br>
