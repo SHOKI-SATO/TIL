@@ -105,7 +105,7 @@
 **●操作のの取り消し**<br>
 &ensp;`-git reset ファイル名` (addした処理の取り消し)<br>
 &ensp;`-git reset --soft HEAD^` (直前のcommitの取り消し（ワークツリーはそのまま）)<br>
-&ensp;`git reset --hard ORIG_HEAD`　（誤ってリセットした場合：リセット前の状態に戻す）<br>
+&ensp;`-git reset --hard ORIG_HEAD`　（誤ってリセットした場合：リセット前の状態に戻す）<br>
 >&emsp;op:<br>
 >&emsp;--soft	(対象範囲：最新コミット（ワークツリー、インデックスはそのまま）)<br>
 >&emsp;--mixed	(対象範囲：最新コミット、インデックス（ワークツリーはそのまま）)<br>
