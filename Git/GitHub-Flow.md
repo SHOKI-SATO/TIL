@@ -1,6 +1,7 @@
-# GitHub-Frow
+# GitHub-Flow
 
 ![代替テキスト](https://image.itmedia.co.jp/ait/articles/1708/01/l_at-it-git-15-009.jpg)
+<br>
 
 ## 6つのルール<br>
 　GitHub Flowには以下の6つのルールがあります。<br>
