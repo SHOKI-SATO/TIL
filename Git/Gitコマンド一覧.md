@@ -7,10 +7,20 @@
 &ensp;`-git config --global user.email "XXXX@hogehoge.com"`<br>
 <br>
 **●設定の確認**<br>
-&ensp;`-git config --list`<br>
+&ensp;`-git config`<br>
+&emsp;<op>
+&emsp;--system	(Systemレベルの設定内容を対象とする)<br>
+&emsp;--global	(Globalレベルの設定内容を対象とする)<br>
+&emsp;--local	(Localレベルの設定内容を対象とする)<br>
+&emsp;-l (設定一覧を表示する)<br>
+&emsp;--list	(設定一覧を表示する)<br>
+&emsp;--help	(コマンドのヘルプを表示する)<br>
+&emsp;--get	(設定値を表示する)<br>
+&emsp;-e	(設定ファイルを編集する)<br>
 <br>
-**●ローカルリポジトリの新規作成**<br>
+**●ローカルリポジトリの新規作成（配下フォルダをGitの管理下に）**<br>
 &ensp;`-git init`<br>
+&ensp;`-git init ディレクトリ名`<br>
 <br>
 **●リモートからクローン（コピー）を取得**<br>
 &ensp;`-git clone https://github.com/XXXX/XXXXXX.git`<br>
