@@ -140,6 +140,7 @@
 &ensp;`-git checkout ブランチ名`<br>
 &ensp;`-git checkout -b ブランチ名`(ブランチの作成＆切り替え)<br>
 &ensp;`-git checkout -b ブランチ名 origin/ブランチ名`(ブランチの作成&切り替え（ローカルブランチを元に）)<br>
+&ensp;`-git checkout ファイル名` (指定したファイルをカレントブランチの最新commit時の状態戻す)<br>
 <br>
 
 **●ファイルを最新のコミットの状態に戻す**<br>
