@@ -42,6 +42,10 @@
 &ensp;`-git merge origin/master`<br>
 <br>
 
+**●ローカルリポジトリをリモートリポジトリに登録**<br>
+&ensp;`-git remote add origin URL`<br>
+&ensp;`-git remote rm origin`（※削除する場合）<br>
+
 **●ファイルをインデックス（ステージングエリア）に登録**<br>
 &ensp;`-git add ファイル名`<br>
 &ensp;`-git add *.java` （javaファイル全て）<br>
@@ -177,6 +181,8 @@
 &ensp;`-git rm ファイル名`<br>
 &ensp;`-git rm *.java` (.javaのファイルを全て削除)<br>
 &ensp;`-git rm --cached ファイル名` (インデックスからファイルを削除)<br>
+&ensp;`-git remote rm origin`（※ローカルリポジトリのリモートリポジトリへの登録を削除）<br>
+
 >&emsp;op:<br>
 >&emsp;--cached	(インデックスからのみ削除)<br>
 >&emsp;-n	(実行結果のみ確認（処理は実行されません）)<br>
