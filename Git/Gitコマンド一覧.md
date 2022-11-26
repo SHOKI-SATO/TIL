@@ -180,7 +180,7 @@
 **●ファイル削除（対象：Git管理下のファイル）**<br>
 &ensp;`-git rm ファイル名`<br>
 &ensp;`-git rm *.java` (.javaのファイルを全て削除)<br>
-&ensp;`-git rm --cached ファイル名` (インデックスからファイルを削除)<br>
+&ensp;`-git rm --cached ファイル名` (インデックス、リポジトリ（ローカル/リモート）からファイルを削除　※ワークツリーには残す)<br>
 &ensp;`-git remote rm origin`（※ローカルリポジトリのリモートリポジトリへの登録を削除）<br>
 
 >&emsp;op:<br>
