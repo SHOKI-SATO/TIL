@@ -113,17 +113,6 @@
 >&emsp;-u	(上流ブランチの規定)<br>
 >&emsp;（--set-upstreamと同義） 
 <br>
-<br>
-
-**●操作のの取り消し**<br>
-&ensp;`-git reset ファイル名` (addした処理の取り消し)<br>
-&ensp;`-git reset --soft HEAD^` (直前のcommitの取り消し（ワークツリーはそのまま）)<br>
-&ensp;`-git reset --hard ORIG_HEAD`　（誤ってリセットした場合：リセット前の状態に戻す）<br>
->&emsp;op:<br>
->&emsp;--soft	(対象範囲：最新コミット（ワークツリー、インデックスはそのまま）)<br>
->&emsp;--mixed	(対象範囲：最新コミット、インデックス（ワークツリーはそのまま）)<br>
->&emsp;--hard	(対象範囲：最新コミット、インデックス、ワークツリー（全て）)<br>
-<br>
 
 **●ブランチ操作**<br>
 &ensp;`-git branch`　（ローカルブランチ一覧の表示）<br>
@@ -153,12 +142,26 @@
 &ensp;`-git checkout ブランチ名`<br>
 &ensp;`-git checkout -b ブランチ名`(ブランチの作成＆切り替え)<br>
 &ensp;`-git checkout -b ブランチ名 origin/ブランチ名`(ブランチの作成&切り替え（ローカルブランチを元に）)<br>
-&ensp;`-git checkout ファイル名` (指定したファイルをカレントブランチの最新commit時の状態戻す)<br>
 <br>
 
-**●ファイルを最新のコミットの状態に戻す**<br>
-&ensp;`-git checkout HEAD ファイル名`()<br>
+**●操作の取り消し**<br>
+&ensp;`-git checkout --ファイル名` (ワークツリーをインデックスの状態に戻す)<br>
+&ensp;`-git checkout .`(ワークツリーをインデックスの状態に戻す（全ファイル）)<br>
+&ensp;`-git checkout HEAD ファイル名`(インデックスとワークツリーを最新コミットの状態に戻す)<br>
+&ensp;※`--`としているのは、「ブランチ名」と「ファイル名/ディレクトリ名」が被ったときに対応するため
 <br>
+
+**●操作のの取り消し**<br>
+&ensp;`-git reset HEAD` (インデックスを最新コミットの状態に戻す）)<br>
+&ensp;`-git reset --hard HEAD^` (ワークツリー、インデックス（、コミット）を最新コミットの状態に戻す（HEADではなくコミットIDを指定した場合は、指定時点以降のコミットを削除）)<br>
+&ensp;`-git reset --hard ORIG_HEAD`　（誤ってリセットした場合：リセット前の状態に戻す）<br>
+>&emsp;op:<br>
+>&emsp;--soft	(対象範囲：最新コミット（ワークツリー、インデックスはそのまま）)<br>
+>&emsp;--mixed	(対象範囲：最新コミット、インデックス（ワークツリーはそのまま）)<br>
+>&emsp;--hard	(対象範囲：最新コミット、インデックス、ワークツリー（全て）)<br>
+<br>
+![image](https://user-images.githubusercontent.com/81621944/204120446-a23a4ab5-dfbe-4d64-913d-5919100519e2.png)
+
 
 **●ブランチのマージ**<br>
 &ensp;`-git merge ブランチ名`　（マージ先となるブランチ上で実施（分岐元））<br>
