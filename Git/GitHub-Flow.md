@@ -3,9 +3,8 @@
 ![代替テキスト](https://image.itmedia.co.jp/ait/articles/1708/01/l_at-it-git-15-009.jpg)
 <br>
 
-### 6つのルール<br>
-　GitHub Flowには以下の6つのルールがあります。<br>
- 【ルール1】が最も重要で、それ以外のルールは【ルール1】を実現するために存在します。<br>
+### ●6つのルール<br>
+ ※ルール1が最も重要、それ以外はルール1を実現するために存在<br>
 <br>
 &ensp;1. masterブランチは常にデプロイ可能である<br>
 &ensp;2. 作業用ブランチをmasterから作成する（例：new-oauth2-scopes）<br>
