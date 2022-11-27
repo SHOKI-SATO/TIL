@@ -17,4 +17,6 @@
 ghp_P3at1LSCQ4K5Wyt7ghgwBNV2rHTFDr2O2grs
 ```
 <br>
-
+### ▼使用方法
+&ensp;初回PUSH時、`git push origin　ファイル名`を実行すると、「ユーザー名」「パスワード」を聞かれる<br>
+&ensp;「ユーザー名」にはGitHubのユーザー名、「パスワード」にはPersonal access token　を入力し実行<br>
