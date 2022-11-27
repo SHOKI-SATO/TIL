@@ -3,7 +3,7 @@
 ![代替テキスト](https://image.itmedia.co.jp/ait/articles/1708/01/l_at-it-git-15-009.jpg)
 <br>
 
-## 6つのルール<br>
+### 6つのルール<br>
 　GitHub Flowには以下の6つのルールがあります。<br>
  【ルール1】が最も重要で、それ以外のルールは【ルール1】を実現するために存在します。<br>
 <br>
