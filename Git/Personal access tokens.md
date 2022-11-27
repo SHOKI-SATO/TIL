@@ -6,11 +6,15 @@
 <br>
 ### ▼設定の流れ
 &ensp;① GitHubを開き、自分のアイコンのプルダウンから`Settings`をクリック<br>
-&ensp;② 画面左側のメニューより、`Developer settings`をクリック<br>
+&ensp;② 画面左側のメニューより、`Developper settings`をクリック<br>
 &ensp;③ 画面左側のメニューよりｍ`Personal access tokens`をクリック<br>
-&ensp;④ `Generate Personal access tokens`をクリック<br>
-<br>
-・フォルダ/ファイルのコピー・移動、何らかのアプリケーションで開いた時・保存した時に自動生成される
-<br>
+&ensp;④ `Generate Personal access tokens`の`Tokens(classic)`をクリック<br>
+&ensp;⑤ Note(使用目的)やExpiration(有効期限)などを入力し、必要項目（どの操作を許可するか）を選択（なんでもよければ全部選択でOK）し、`Generate token`をクリック<br>
+&ensp;⑥ 遷移後画面で以下のようなトークンが発行されるので、 **必ずコピー**　　<br>
+&ensp;&ensp;※PUSHの実行に必要となるので、必ず控える
+&ensp;&ensp;※紛失時は同じ手順で再発行する
+```
+ghp_P3at1LSCQ4K5Wyt7ghgwBNV2rHTFDr2O2grs
+```
 <br>
 
