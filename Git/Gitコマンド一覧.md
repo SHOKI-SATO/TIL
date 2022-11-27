@@ -162,6 +162,7 @@
 >&emsp;--mixed	(対象範囲：最新コミット、インデックス（ワークツリーはそのまま）)<br>
 >&emsp;--hard	(対象範囲：最新コミット、インデックス、ワークツリー（全て）)<br>
 <br>
+
 ![image](https://user-images.githubusercontent.com/81621944/204120446-a23a4ab5-dfbe-4d64-913d-5919100519e2.png)
 
 
