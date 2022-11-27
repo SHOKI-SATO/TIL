@@ -73,7 +73,7 @@
 &ensp;`-git diff HEAD^`　（commitの後に確認：最新コミット/前回のコミットの差分）<br>
 &ensp;`-git diff　HEAD..origin/ブランチ名`　（最新コミット（ローカルリポジトリ）/リモートリポジトリ）<br>
 &ensp;`-git diff　origin/ブランチ名..HEAD`　（pullの前に確認：リモートリポジトリ/最新コミックト（ローカルリポジトリ）の差分）<br>
-&esnp;`-git diff　HEAD..origin/ブランチ名`　（pushの前に確認：最新コミット（ローカルリポジトリ）/リモートリポジトリの差分）<br>
+&esnp; `-git diff　HEAD..origin/ブランチ名`　（pushの前に確認：最新コミット（ローカルリポジトリ）/リモートリポジトリの差分）<br>
 >&emsp;op:<br>
 >&emsp;--name-only	(差分があったファイル名のみ表示)<br>
 <br>
