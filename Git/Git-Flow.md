@@ -3,7 +3,7 @@
 ![代替テキスト](https://image.itmedia.co.jp/ait/articles/1708/01/at-it-git-15-001.jpg)
 <br>
 
-## ブランチの用途と種類<br>
+### ▼ブランチの用途と種類<br>
 　git-flowを使用した開発では「メインブランチ」とそれ以外の「サポートブランチ」を使用します。<br>
 <br>
 
@@ -20,7 +20,7 @@
 >&ensp;-hotfix:緊急の修正作業を行う（masterから分岐し、masterにマージしタグ付け後、developにマージ）<br>
 <br>
 
-## 開発の流れ<br>
+### ▼開発の流れ<br>
 1. 開発<br>
     1.  developブランチからfeatureブランチを切る（feature/XXXXXXブランチ）<br>
   ```
