@@ -67,7 +67,7 @@
 **①GitHubの対象プロジェクトから`Clone or download`をクリック**. <br>
 **②URLをコピーし、ローカルにクローンの作成**. <br> 
 　&emsp;　`-git clone URL` <br>
- &emsp; ※ｂブランチを指定したい場合は、`git clone -b ブランチ名　URL`<br>
+ &emsp; ※ブランチを指定したい場合は、`git clone -b ブランチ名　URL`<br>
 
 
 
