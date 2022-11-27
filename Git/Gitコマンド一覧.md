@@ -70,7 +70,7 @@
 
 **●ファイル差分を抽出**<br>
 &ensp;`-git diff`　（addの前に確認：ワークツリー/インデックスの差分）<br>
-&ensp;`-git diff --cathed`　（addの後に確認：インデックス/最新コミットの差分）<br>
+&ensp;`-git diff --cached`　（addの後に確認：インデックス/最新コミットの差分）<br>
 &ensp;`-git diff --staged`　（addの後に確認：インデックス/最新コミットの差分）<br>
 &ensp;`-git diff HEAD`　（commitの後に確認：最新コミット/ワークツリーの差分）<br>
 &ensp;`-git diff HEAD^`　（commitの後に確認：最新コミット/前回のコミットの差分）<br>
