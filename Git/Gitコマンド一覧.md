@@ -25,8 +25,11 @@
 &ensp;`-git init ディレクトリ名`<br>
 <br>
 
-**●リモートからクローン（コピー）を取得**<br>
-&ensp;`-git clone https://github.com/XXXX/XXXXXX.git`<br>
+**●リモートからクローン（コピー）を取得（メインブランチ）**<br>
+&ensp;`-git clone URL`(URLは、https://github.com/XXXX/XXXXXX.git)<br>
+&ensp;`-git clone -b ブランチ名　URL`(クローンするブランチを指定（指定しない場合はmainブランチを取得）)<br>
+>&emsp;op:<br>
+>&emsp;-b	(取得するブランチを指定)<br>
 <br>
 
 **●リモートから変更を取得（ローカルにマージしない(作業フォルダに反映されない)）**<br>
