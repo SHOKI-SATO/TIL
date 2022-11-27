@@ -10,7 +10,7 @@
 &ensp;③ 画面左側のメニューよりｍ`Personal access tokens`をクリック<br>
 &ensp;④ `Generate Personal access tokens`の`Tokens(classic)`をクリック<br>
 &ensp;⑤ Note(使用目的)やExpiration(有効期限)などを入力し、必要項目（どの操作を許可するか）を選択（なんでもよければ全部選択でOK）し、`Generate token`をクリック<br>
-&ensp;⑥ 遷移後画面で以下のようなトークンが発行されるので、 **必ずコピー**　　<br>
+&ensp;⑥ 遷移後画面で以下のようなトークンが発行されるので、必ずコピ-　<br>
 &ensp;&ensp;※PUSHの実行に必要となるので、必ず控える
 &ensp;&ensp;※紛失時は同じ手順で再発行する
 ```
