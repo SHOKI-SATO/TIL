@@ -45,6 +45,7 @@
 **●ローカルリポジトリをリモートリポジトリに登録**<br>
 &ensp;`-git remote add origin URL`<br>
 &ensp;`-git remote rm origin`（※削除する場合）<br>
+<br>
 
 **●ファイルをインデックス（ステージングエリア）に登録**<br>
 &ensp;`-git add ファイル名`<br>
@@ -103,7 +104,12 @@
 **●リモートにプッシュ**<br>
 &ensp;`-git push` (ブランチを追跡している場合)<br>
 &ensp;`-git push origin ブランチ名` (指定したブランチをプッシュ)<br>
+&ensp;`-git push -u origin ブランチ名` (指定したブランチをプッシュ(次回以降、`git push(pull)`のみでPUSH(PULL)が可能 ))<br>
 &ensp;`-git push --delete origin ブランチ名`(指定したリモートブランチの削除)<br>
+>&emsp;op:<br>
+>&emsp;-u	(上流ブランチの規定)<br>
+>&emsp;（--set-upstreamと同義） 
+<br>
 <br>
 
 **●操作のの取り消し**<br>
@@ -175,8 +181,7 @@
 &ensp;`-git stash drop　stash名` （指定したスタッシュを削除）<br>
 &ensp;`-git stash clear`　（全てのスタッシュを削除）<br>
 <br>
-<br>
-<br>
+
 **●ファイル削除（対象：Git管理下のファイル）**<br>
 &ensp;`-git rm ファイル名`<br>
 &ensp;`-git rm *.java` (.javaのファイルを全て削除)<br>
