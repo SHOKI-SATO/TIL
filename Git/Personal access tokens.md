@@ -11,12 +11,14 @@
 &ensp;④ `Generate Personal access tokens`の`Tokens(classic)`をクリック<br>
 &ensp;⑤ Note(使用目的)やExpiration(有効期限)などを入力し、必要項目（どの操作を許可するか）を選択（なんでもよければ全部選択でOK）し、`Generate token`をクリック<br>
 &ensp;⑥ 遷移後画面で以下のようなトークンが発行されるので、必ずコピ-　<br>
-&ensp;&ensp;※PUSHの実行に必要となるので、必ず控える
-&ensp;&ensp;※紛失時は同じ手順で再発行する
+&ensp;&ensp;※PUSHの実行に必要となるので、必ず控える<br>
+&ensp;&ensp;※紛失時は同じ手順で再発行する<br>
 ```
 ghp_P3at1LSCQ4K5Wyt7ghgwBNV2rHTFDr2O2grs
 ```
 <br>
+
 ### ▼使用方法
+
 &ensp;初回PUSH時、`git push origin　ファイル名`を実行すると、「ユーザー名」「パスワード」を聞かれる<br>
 &ensp;「ユーザー名」にはGitHubのユーザー名、「パスワード」にはPersonal access token　を入力し実行<br>
