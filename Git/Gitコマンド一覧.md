@@ -89,6 +89,7 @@
 >&emsp;-m "メッセージ" (メッセージを指定)<br>
 >&emsp;--message	(メッセージを指定)<br>
 >&emsp;--amend	(直前のコミットのメッセージを修正)<br>
+>&emsp;&emsp;&emsp;※リモートにPUSH済のコミットはNG、PUSH済のコミットを修正の場合は新しくコミットをする
 <br>
 
 **●commitの変更履歴を確認**<br>
