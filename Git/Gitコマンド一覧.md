@@ -50,6 +50,11 @@
 &ensp;`-git remote rm origin`（※削除する場合）<br>
 <br>
 
+**●リモートリポジトリの一覧を表示**<br>
+&ensp;`-git remote`<br>
+>&emsp;op:<br>
+>&emsp;-v	（URLを含めて表示）<br>
+
 **●ファイルをインデックス（ステージングエリア）に登録**<br>
 &ensp;`-git add ファイル名`<br>
 &ensp;`-git add *.java` （javaファイル全て）<br>
@@ -198,7 +203,7 @@
 &ensp;`-git rm ファイル名`<br>
 &ensp;`-git rm *.java` (.javaのファイルを全て削除)<br>
 &ensp;`-git rm --cached ファイル名` (インデックス、リポジトリ（ローカル/リモート）からファイルを削除　※ワークツリーには残す)<br>
-&ensp;`-git remote rm origin`（※ローカルリポジトリのリモートリポジトリへの登録を削除）<br>
+
 
 >&emsp;op:<br>
 >&emsp;--cached	(インデックスからのみ削除)<br>
