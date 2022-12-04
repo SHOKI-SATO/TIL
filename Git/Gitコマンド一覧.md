@@ -52,6 +52,7 @@
 
 **●リモートリポジトリの一覧を表示**<br>
 &ensp;`-git remote`<br>
+&ensp;`-git remote show リモート名` （より詳細なリモートリポジトリの情報）<br>
 >&emsp;op:<br>
 >&emsp;-v	（URLを含めて表示）<br>
 
