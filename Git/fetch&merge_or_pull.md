@@ -48,7 +48,7 @@ git pull リモート名　ブランチ名
 ***
 <br>
 
-####　○エラー発生時（コンフリクト等）
+#### ○エラー発生時（コンフリクト等）
 
 &ensp;・`git pull`でエラーが発生した場合<br>
 &ensp;&ensp;→`pull = fetch + merge`なので、まずは`merge`を取り消す<br>
