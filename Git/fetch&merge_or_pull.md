@@ -28,7 +28,7 @@ git reset --hard HEAD
 ```
 
 
-### ▼pullとは<br>
+### ▼pullとは
 ```
 git pull リモート名　ブランチ名
 ```
@@ -37,6 +37,15 @@ git pull リモート名　ブランチ名
 &ensp;　（毎回同じ位置、同じサイズにファイルを開く、等）<br>
 &ensp;・フォルダ/ファイルのコピー・移動、何らかのアプリケーションで開いた時・保存した時に自動生成される<br>
 <br>
+####　※実行時の注意点※
+&ensp;・pullで指定したブランチに関わらず、今いるブランチにpullされる為、必ずブランチを切り替えてからpullする<br>
+***
+&ensp;例) 現在のブランチ:master　<br>
+&ensp;&ensp;&ensp;ローカルのhogeブランチにリモートのhogeブランチを取り込む為、`-git pull origin hoge`を実行<br>
+&ensp;&ensp;&ensp;→**ローカルのmasterブランチにリモートのhogeブランチの内容が取り込まれてしまう**
+***
+<br>
+
 ####　○エラー発生時（コンフリクト等）
 &ensp;・`git pull`でエラーが発生した場合<br>
 &ensp;&ensp;→`pull = fetch + merge`なので、まずは`merge`を取り消す<br>
@@ -48,3 +57,4 @@ git merge --abort
 git reset --hard HEAD
 ```
 <br>
+
