@@ -132,7 +132,7 @@
 &ensp;`-git branch`　（ローカルブランチ一覧の表示）<br>
 &ensp;`-git branch ブランチ名`　（ブランチの作成）<br>
 &ensp;`-git branch ブランチ名 origin/ブランチ名`　（ブランチの作成（リモートブランチを元に））<br>
-&ensp;`-git branch -d ブランチ名`　（指定したブランチの削除）<br>
+&ensp;`-git branch -d ブランチ名`　（指定したブランチの削除（マスターへ反映されていないブランチは削除しない））<br>
 &ensp;`-git branch -D ブランチ名`　（指定したブランチの強制削除)<br>
 &ensp;`-git branch -m 旧ブランチ名　新ブランチ名`　（指定したブランチのブランチ名の変更）<br>
 &ensp;&ensp;※現在のブランチのブランチ名を変える場合は、`git branch -m 新ブランチ名`でOK<br>
