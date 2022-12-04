@@ -55,6 +55,11 @@
 &ensp;`-git remote show リモート名` （より詳細なリモートリポジトリの情報）<br>
 >&emsp;op:<br>
 >&emsp;-v	（URLを含めて表示）<br>
+<br>
+
+**●リモートリポジトリ名前を変更**<br>
+&ensp;`-git remote rename 旧リモートの名前　新リモートの名前`<br>
+<br>
 
 **●ファイルをインデックス（ステージングエリア）に登録**<br>
 &ensp;`-git add ファイル名`<br>
