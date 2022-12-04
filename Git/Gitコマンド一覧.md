@@ -45,7 +45,7 @@
 &ensp;`-git merge origin/master`<br>
 <br>
 
-**●ローカルリポジトリをリモートリポジトリに登録**<br>
+**●ローカルリポジトリをリモートリポジトリに登録（複数登録可能）**<br>
 &ensp;`-git remote add origin URL`<br>
 &ensp;`-git remote rm origin`（※削除する場合）<br>
 <br>
