@@ -1,7 +1,7 @@
 # fetch&merge_or_pull
 
-### fetch→mergeとは<br>
-#### fetchとは
+### ▼fetch→mergeとは<br>
+#### ●fetchとは
 ```
 git fetch リモート名　ブランチ名
 ```
@@ -11,7 +11,7 @@ git fetch リモート名　ブランチ名
 &ensp;・ワークツリーに反映させる場合には、`git merge`が必要<br>
 <br>
 
-#### mergeとは
+#### ●mergeとは
 ```
 git merge リモート名　ブランチ名
 ```
@@ -20,7 +20,7 @@ git merge リモート名　ブランチ名
 &ensp;　（ワークツリーには反映されていない）<br>
 &ensp;・ワークツリーに反映させる場合には、`git merge`が必要<br>
 <br>
-#### エラー発生時（コンフリクト等）
+#### ○エラー発生時（コンフリクト等）
 &ensp;・`git fetch`でエラーが発生した場合<br>
 &ensp;&ensp;→まだワークツリーまで更新されていない（mergeされていない）為、以下のコマンドで最新のコミットまで戻す（無かったことに）<br>
 ```
@@ -28,7 +28,7 @@ git reset --hard HEAD
 ```
 
 
-### pullとは<br>
+### ▼pullとは<br>
 ```
 git pull リモート名　ブランチ名
 ```
@@ -37,7 +37,7 @@ git pull リモート名　ブランチ名
 &ensp;　（毎回同じ位置、同じサイズにファイルを開く、等）<br>
 &ensp;・フォルダ/ファイルのコピー・移動、何らかのアプリケーションで開いた時・保存した時に自動生成される<br>
 <br>
-#### エラー発生時（コンフリクト等）
+####　○エラー発生時（コンフリクト等）
 &ensp;・`git pull`でエラーが発生した場合<br>
 &ensp;&ensp;→`pull = fetch + merge`なので、まずは`merge`を取り消す<br>
 ```
