@@ -55,6 +55,8 @@
 　&emsp;　Pullrequestタブからnew pull request ➞create pull request <br> 
 　&emsp;　依頼したい人を選択して送信（なければなし）<br>
 <br>
+<br>
+
 
 **⑧プルリクエストの確認**. <br>
 　&emsp;　Filechangedタブから変更を確認、Conversationからマージ（Merge Pullrequest）    <br>
@@ -69,7 +71,7 @@
 　&emsp;　`-git clone URL` <br>
  &emsp; ※ブランチを指定したい場合は、`git clone -b ブランチ名　URL`<br>
  <br>
-
+<br>
 
 
 ### ▼後作業
