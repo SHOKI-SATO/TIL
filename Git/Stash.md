@@ -26,9 +26,11 @@
 ```
 <br>
 &ensp;・ステージの状況も復元<br>
+
 ```
 -git stash apply --index
 ```
+
 <br>
 
 &ensp;・特定の作業を復元<br>
@@ -36,6 +38,7 @@
 -git stash apply　スタッシュ名
 -git stash apply　stash@{0}
 ```
+
 <br>
 <br>
 
@@ -47,6 +50,7 @@
 ```
 <br>
 &ensp;・特定のstashを削除<br>
+
 ```
 -git stash drop　スタッシュ名
 -git stash drop stash@{0}
