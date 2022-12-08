@@ -106,6 +106,7 @@
 
 **●commitの変更履歴を確認**<br>
 &ensp;`-git log`<br>
+&ensp;`-git log --oneline`（コミットの履歴を確認（コミットIDの確認時、またはコミットメッセージから探したい時））<br>
 &ensp;`-git log　ファイル名`（指定したファイルのログを表示）<br>
 >&emsp;op:<br>
 >&emsp;--oneline	(履歴のコミットハッシュ値の先頭7桁とコミットメッセージの一覧を表示)<br>
