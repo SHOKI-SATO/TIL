@@ -100,8 +100,8 @@
 >&emsp;-m "メッセージ" (メッセージを指定)<br>
 >&emsp;--message	(メッセージを指定)<br>
 >&emsp;--amend	(直前のコミットの修正)<br>
->&emsp;&emsp;&emsp;※リモートにPUSH済のコミットはNG、PUSH済のコミットを修正の場合は新しくコミットをする
->&emsp;&emsp;&emsp;※手順は通常と同じく、ファイルの変更→add→commitで、commit時に'--amend'を指定する
+>&emsp;&emsp;&emsp;※リモートにPUSH済のコミットはNG、PUSH済のコミットを修正の場合は新しくコミットをする<br>
+>&emsp;&emsp;&emsp;→手順は通常と同じく、ファイルの変更→add→commitで、commit時に'--amend'を指定する<br>
 <br>
 
 **●commitの変更履歴を確認**<br>
