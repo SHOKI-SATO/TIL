@@ -1,5 +1,5 @@
 # DB概要
 
 ### ▼DBとは<br>
-&ensp;・<br>
+&ensp;<br>
 <br>
