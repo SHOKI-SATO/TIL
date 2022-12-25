@@ -11,9 +11,7 @@
 ```shell
 jshell
 ```
-<br>
-
-#### ●Jshellの起動<br>
+#### ●Jshellの終了<br>
 ```shell
 /exit
 ```
