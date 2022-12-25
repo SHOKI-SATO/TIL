@@ -65,12 +65,22 @@
 
 #### ●プロジェクト
 &ensp;・アプリケーションを目的単位でまとめたもの<br>
-&ensp;・<br>
-&ensp;・<br>
 <br>
 
 #### ●クラス
 &ensp;・Javaプログラムを構成する１つの単位<br>
+&ensp;・javaファイルをコンパイルするとクラスファイルが作成される<br>
+&ensp;・<br>
+<br>
+
+#### ●JShell
+&ensp;・REPL(Read Eval Print Loop)という標準ツール<br>
+&ensp;・Javaのプログラムを１行ずつ実行し動作確認が可能<br>
+&ensp;・ターミナルを介して「jshell」と入力して起動する（JDKがインストールされていれば実行可能）<br>
+<br>
+
+#### ●
+&ensp;・<br>
 &ensp;・<br>
 &ensp;・<br>
 <br>
