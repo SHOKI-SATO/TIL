@@ -7,7 +7,7 @@
 <br>
 
 
-### 主要機能
+### ●主要機能
 &ensp;・Oracle, PostgreSQL, MySQLへの直接接続<br>
 &ensp;・その他のデータベースへのADOまたはODBCを介したDBへの接続<br>
 &ensp;・SQL入力支援機能<br>
