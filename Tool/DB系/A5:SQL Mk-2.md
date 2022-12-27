@@ -1,4 +1,5 @@
 # A5:SQL Mk-2
+![image](https://user-images.githubusercontent.com/81621944/209663611-e2638893-1467-4732-8883-ce37c0175185.png)
 
 ### ▼A5:SQL Mk-2とは<br>
 &ensp;・フリーのSQLクライアント<br>
