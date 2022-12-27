@@ -1,6 +1,5 @@
 # PostgreSQL
-![image](https://user-images.githubusercontent.com/81621944/209655883-834bb68d-d1f6-4486-80a5-8e00eeeefa76.png)
-
+![image](https://user-images.githubusercontent.com/81621944/209660717-5f0ccfb2-5b33-4591-b766-1acfecedec0f.png)
 
 ### ▼PostgreSQLとは<br>
 &ensp;・オープンソースのRDBMS<br>
