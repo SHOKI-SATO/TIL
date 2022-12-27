@@ -4,4 +4,5 @@
 
 ### ▼TeraTermとは<br>
 &ensp;・<br>
+&ensp;・主にtelnetやSSHにより接続する際に使用する<br>
 <br>
