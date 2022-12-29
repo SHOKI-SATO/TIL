@@ -3,5 +3,5 @@
 
 ### ▼TortoiseSVNとは
 &ensp;・SVNを利用するためのGUIクライアントソフト（トータスSVN）<br>
-&ensp;・<br>
+&ensp;・Windowsのみ利用可能<br>
 <br>
