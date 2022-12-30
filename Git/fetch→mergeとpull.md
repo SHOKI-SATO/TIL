@@ -1,4 +1,4 @@
-# fetch&merge_or_pull
+# fetch&mergeとpull
 
 ### ▼fetch→mergeとは<br>
 #### ●fetchとは
