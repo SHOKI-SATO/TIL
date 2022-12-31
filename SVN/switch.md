@@ -2,7 +2,6 @@
 
 ### ▼スイッチとは
 &ensp;・trunk　⇄ branches ⇄ tags　の切り替え<br>
-&ensp;・<br>
 <br>
 
 #### ●現在の状況の確認
