@@ -16,16 +16,19 @@ alist ==> []
 
 ●要素の追加<br>
 ```java
+//インスタンス生成時に要素を追加
+jshell> ArrayList<String> alist = new ArrayList<String>(Arrays.asList("a","b","c"));
+alist ==> [a, b, c]
+
+
 //addメソッドを利用
 jshell> alist.add("a")
 
 //追加する場所を指定
 jshell> alist.add(1,"b")
 
-//複数の要素を追加　addAll
-
-
-
+//複数の要素を追加　Collection.addAll
+jshell> Collections.addAll(alist,"c","d","e")
 ```
 
 ●要素の上書き<br>
@@ -53,8 +56,12 @@ $41 ==> "a"
   //toString()
 jshell>    System.out.print(alist.toString());
 [a, b, c, d, e]
+
+//全ての要素を出力
 　　//for文
-jshell>   for(String ablist : alist){System.out.print(ablist);}
+jshell>   for(String ablist : alist){
+              System.out.print(ablist);
+              }
 abcde
 
 //変数名を指定して直接の出力は出来ない
