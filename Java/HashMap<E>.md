@@ -1,6 +1,6 @@
-# HashMap
+# HashMap<E>
 
-### ▼Mapとは
+### ▼HashMap<E>とは
 &ensp;・キー/バリューの組み合わせで要素を保持する<br>
 &ensp;・Map.ofメソッドと異なり、変更可能<br>
 <br>
