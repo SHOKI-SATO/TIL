@@ -11,22 +11,23 @@
 //ジェネリクス（<>）を用いて要素のデータ型を指定
 
 //List型で宣言する場合（基本的にはこちら）
-List<String> alist = new ArrayList<String>();
-
-//ArrayList型で宣言する場合（基本使わない）
-ArrayList<String> alist = new ArrayList<String>();
-
-//※割り当て先の変数の型（1つ目のジェネリクス）から型の推論ができるので、２つ目のジェネリクスは<>のみに省略も可能（ダイヤモンドオペレータ）
 List<String> alist = new ArrayList<>();
+//または
+ArrayList<String> alist = new ArrayList<>();
+
+//varを使う場合は以下の書き方
+var alist = new ArrayList<String> ();
 ```
 ※おおまかにList型として捉えられることで、List型で宣言された他インスタンス(LinkedListなど)と型の違いを気にすることなくまとめて処理をおこなえたり、後で型変更をおこなってもコードの変更範囲が少ない<br>
+※詳細はこちら→<br>
+&ensp;  https://github.com/SHOKI-SATO/TIL/blob/main/%E5%A3%81/20230108_List%E3%81%A8ArrayList%E3%81%AE%E9%81%95%E3%81%84.md　<br>
 <br>
 
 
 ●要素の追加<br>
 ```java
 //インスタンス生成時に要素を追加
-jshell> ArrayList<String> alist = new ArrayList<String>(Arrays.asList("a","b","c"));
+jshell> ArrayList<String> alist = new ArrayList<>(Arrays.asList("a","b","c"));
 alist ==> [a, b, c]
 
 
