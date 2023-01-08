@@ -41,10 +41,7 @@ jshell> alist.remove(0)
 
 //全て削除
 jshell> alist.clear()
-
-
 ```
-
 
 ●要素の出力<br>
 ```java
@@ -52,8 +49,13 @@ jshell> alist.clear()
 jshell> alist.get(0);
 $41 ==> "a"
 
-//
-
+//全ての要素を出力
+  //toString()
+jshell>    System.out.print(alist.toString());
+[a, b, c, d, e]
+　　//for文
+jshell>   for(String ablist : alist){System.out.print(ablist);}
+abcde
 
 //変数名を指定して直接の出力は出来ない
 jshell> System.out.pritln(alist)
@@ -61,9 +63,6 @@ jshell> System.out.pritln(alist)
 |  シンボルを見つけられません
 |    シンボル:   メソッド pritln(java.util.ArrayList<java.lang.String>)
 |    場所: タイプjava.io.PrintStreamの変数 out
-
-
-
 ```
 
 <br>
