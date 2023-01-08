@@ -2,17 +2,22 @@
 
 ### ▼ArrayList<E>　とは
 &ensp;・ArrayList<E>　クラス（java.utill　パッケージに含まれるため、インポートが必要）<br>
-&ensp;・コレクションクラス（複数のオブジェクトをまとめて管理できるクラスをまとめたもの）のひとつ<br>
-&ensp;・List.of()メソッドで作成したListと異なり、要素の変更が可能<br>
+&ensp;・Listインターフェースを実装したクラス<br>
 &ensp;・`ArrayList<E>`まででクラス名　（E:Element（要素））<br>
 <br>
 
 ●インスタンスの生成<br>
 ```java
 //ジェネリクス（<>）を用いて要素のデータ型を指定
-jshell> ArrayList<String> alist = new ArrayList<String>();
-alist ==> []
-  //※割り当て先の変数の型（1つ目のジェネリクス）から型の推論ができるので、２つ目のジェネリクスは<>のみに省略も可能（ダイヤモンドオペレータ）
+
+//List型で宣言する場合（基本的にはこちら）
+List<String> alist = new ArrayList<String>();
+
+//ArrayList型で宣言する場合
+ArrayList<String> alist = new ArrayList<String>();
+
+//※割り当て先の変数の型（1つ目のジェネリクス）から型の推論ができるので、２つ目のジェネリクスは<>のみに省略も可能（ダイヤモンドオペレータ）
+List<String> alist = new ArrayList<>();
 ```
 
 ●要素の追加<br>
