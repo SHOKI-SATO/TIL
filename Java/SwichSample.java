@@ -1,4 +1,3 @@
-//基本の形
 class Main {
     public static void main(String[] args) {
         var a = 6;
@@ -10,6 +9,15 @@ class Main {
             case 5 -> System.out.println("five");
             default -> System.out.println("noting");
         }
+        
+         //上記はどの分岐になった場合も出力をしているので、switch式に書き換える
+        System.out.println(switch(a){
+           case 1,2 -> "one-two";
+           case 3 -> "three";
+           case 4 -> "four";
+           case 5 -> "five";
+           default -> "noting";
+        });
         
         //Java7,Java11では以下の形式で記述する
         switch (a) {
@@ -31,13 +39,15 @@ class Main {
                 break;
         }
         
-        //上記はどの分岐になった場合も出力をしているので、switch式に書き換える
-        System.out.println(switch(a){
-           case 1,2 -> "one-two";
-           case 3 -> "three";
-           case 4 -> "four";
-           case 5 -> "five";
-           default -> "noting";
+        //その場合のswitch式はyield文を使って値を返す
+         System.out.println(switch(a){
+           case 1:
+           case 2: yield "one-two";
+           case 3: yield "three";
+           case 4: yield "four";
+           case 5: yield "five";
+           default: yield "noting";
         });
+       
     }
 }
