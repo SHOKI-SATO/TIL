@@ -13,12 +13,15 @@
 //List型で宣言する場合（基本的にはこちら）
 List<String> alist = new ArrayList<String>();
 
-//ArrayList型で宣言する場合
+//ArrayList型で宣言する場合（基本使わない）
 ArrayList<String> alist = new ArrayList<String>();
 
 //※割り当て先の変数の型（1つ目のジェネリクス）から型の推論ができるので、２つ目のジェネリクスは<>のみに省略も可能（ダイヤモンドオペレータ）
 List<String> alist = new ArrayList<>();
 ```
+※おおまかにList型として捉えられることで、List型で宣言された他インスタンス(LinkedListなど)と型の違いを気にすることなくまとめて処理をおこなえたり、後で型変更をおこなってもコードの変更範囲が少ない<br>
+<br>
+
 
 ●要素の追加<br>
 ```java
