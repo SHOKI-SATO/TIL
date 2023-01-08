@@ -1,3 +1,4 @@
+//基本の形
 class Main {
     public static void main(String[] args) {
         var a = 6;
