@@ -47,6 +47,7 @@ List<String> list = new ArrayList<String>();
 List<String> list = new ArrayList<>();
 ```
 <br>
+  
 ```java
 List<String> list = new ArrayList<String>();  //問題ないが、今は右辺の<String>を<>に省略可能
 ArrayList<String> list = new ArrayList<String>(); //問題ないが、ArrayList<String>ではなくList<String>にした方がいい、また今は右辺の<String>を<>に省略可能
