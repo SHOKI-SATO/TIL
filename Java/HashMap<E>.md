@@ -1,41 +1,28 @@
 # HashMap<E>
 
 ### ▼HashMap<E>とは
-&ensp;・`HashMap<E>`クラス　（java.utill　パッケージに含まれるため、インポートが必要）<br>
+&ensp;・`HashMap<E>`クラス　（java.utill　パッケージに含まれるため、インポートが必要）（E:Element（要素））<br>
 &ensp;・Mapインターフェースを実装したクラス<br>
 &ensp;・Map.ofメソッドと異なり、変更可能<br>
-<br>
-
-●インスタンス生成<br>
-```java
-//Map<キーの型名, 値の型名> オブジェクト名 = new HashMap<>();
-
-```
-<br>
-# ArrayList<E>
-
-### ▼ArrayList<E>　とは
-&ensp;・ArrayList<E>　クラス（java.utill　パッケージに含まれるため、インポートが必要）<br>
-&ensp;・Listインターフェースを実装したクラス<br>
-&ensp;・`ArrayList<E>`まででクラス名　（E:Element（要素））<br>
 <br>
   
 ####　特徴
 &ensp;・要素数が可変（要素の数にあわせて伸び縮みする配列　のようなイメージ）<br>
-&ensp;・要素数の重複が許容されない<br>
-<br>  
-  
+&ensp;・要素数の重複が許容されない（キーが重複すると上書きされてしまうので自分で気をつける必要がある）<br>
+&ensp;・参照型のみ指定が可能<br>
+<br>
+
 ●インスタンスの生成<br>
 ```java
 //ジェネリクス（<>）を用いて要素のデータ型を指定
-
-//List型で宣言する場合（基本的にはこちら）
-List<String> alist = new ArrayList<>();
+  
+//Map型で宣言する場合（基本的にはこちら）
+Map<String, String> hmap = new HashMap<>();
 //または
-ArrayList<String> alist = new ArrayList<>();
+HashMap<String> hmap = new HashMap<>();
 
 //varを使う場合は以下の書き方
-var alist = new ArrayList<String> ();
+var hmap = new ArrayList<String> ();
 ```
 ※おおまかにList型として捉えられることで、List型で宣言された他インスタンス(LinkedListなど)と型の違いを気にすることなくまとめて処理をおこなえたり、後で型変更をおこなってもコードの変更範囲が少ない<br>
 ※[詳細はこちら](https://github.com/SHOKI-SATO/TIL/blob/main/%E5%A3%81/20230108_List%E3%81%A8ArrayList%E3%81%AE%E9%81%95%E3%81%84.md)　<br>
