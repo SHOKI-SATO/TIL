@@ -1,9 +1,8 @@
 # ArrayList<E>
 
 ### ▼ArrayList<E>　とは
-&ensp;・ArrayList<E>　クラス（java.utill　パッケージに含まれるため、インポートが必要）<br>
+&ensp;・`ArrayList<E>`クラス（java.utill　パッケージに含まれるため、インポートが必要）（E:Element（要素））<br>
 &ensp;・Listインターフェースを実装したクラス<br>
-&ensp;・`ArrayList<E>`まででクラス名　（E:Element（要素））<br>
 <br>
   
 ####　特徴
