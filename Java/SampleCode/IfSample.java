@@ -1,4 +1,5 @@
-//基本の形
+//if文のサンプル
+
 class Main{
     public static void main (String[] args) {
         int i = 10;
