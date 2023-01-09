@@ -1,4 +1,4 @@
-//拡張for文
+//拡張for文のサンプル
 
 import java.util.List;
 
