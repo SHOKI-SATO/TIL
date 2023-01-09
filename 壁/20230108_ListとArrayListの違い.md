@@ -5,6 +5,7 @@
 ListとArraｙListが変更出来る/出来ないの違いくらいでどういう関係のものかがあやふや<br>
 ArrayListを宣言するときに格納する変数の型やジェネリクスがどうするのが正解かがわからない<br>
 ```java
+//これらはどれが正しくてどれが誤りなのか、またそれはなぜなのか？
 List<String> list = new ArrayList<String>();
 ArrayList<String> list = new ArrayList<String>();
 List<String> list = new ArrayList<>();
