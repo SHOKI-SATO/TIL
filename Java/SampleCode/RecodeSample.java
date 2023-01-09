@@ -1,4 +1,5 @@
-//レコード　：　項目に名前をつけ、型を指定して扱える　
+//レコード　のサンプル　（項目に名前をつけ、型を指定して扱える）　
+
 public class Main {
     public static void main(String[] args) {
         var person = new Person("Mario", 26);
