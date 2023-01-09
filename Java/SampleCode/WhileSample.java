@@ -1,4 +1,5 @@
-//基本の形
+//while文のサンプル
+
 public class Main {
     public static void main(String[] args) {
         int i = 0;
