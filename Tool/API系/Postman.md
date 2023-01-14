@@ -4,7 +4,7 @@
 
 ### ▼Postmanとは
 &ensp;・WebAPI開発用のツール<br>
-&ensp;・<br>
+&ensp;・URLやRequestの内容、TOKENを設定してAPIにRequestを送り、Responseを確認することができるツール<br>
 <br>
 
 #### ●機能
