@@ -1,17 +1,18 @@
-# REST API （REpresentational State Transfer(具象化された状態の転送)）
+# REST API
+## （REpresentational State Transfer(具象化された状態の転送)）
 
-### ▼REST APIとは
+## ▼REST APIとは
 &ensp;・Webシステムを外部から利用するためのプログラムの呼び出し規約(API)の種類の一つ(RESTと呼ばれる設計原則に従って策定されたもの)<br>
 &ensp;・一般的にはRESTの考え方をWeb APIに適用したものをRESTful APIと呼ぶ<br>
 <br>
 
-#### ▼特徴
+### ▼特徴
 &ensp;・URL/URIですべてのリソースを一意に識別し、セッション管理や状態管理などを行わない(ステートレス)<br>
 &ensp;・リソースの操作はHTTPメソッドによって指定(取得ならGETメソッド、書き込みならPOSTメソッド)され、結果はXMLやHTML、JSONなどで返される<br>
 &ensp;・処理結果はHTTPステータスコードで通知<br>
 <br>
 
-#### ▼RESTの４原則
+### ▼RESTの４原則
 ##### ①統一インターフェース
 &ensp;・あらかじめ定義・共有された方法でやり取りされること<br>
 >例：「GET・POST・PUT・DELETE等のHTTPメソッドでやりとりする」や「やり取りするデータはJSON形式にする」といったもの
@@ -33,7 +34,7 @@
 <br>
 
 
-#### ▼主なHTTPメソッドの種類
+### ▼主なHTTPメソッドの種類
 ##### ●GET（データの取得）
 &ensp;・何かしらのデータを取得する際に利用する<br>
 >Webページの取得、データの取得、ファイルの取得、等
