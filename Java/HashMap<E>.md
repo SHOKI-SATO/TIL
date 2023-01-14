@@ -1,19 +1,19 @@
 # HashMap<E>
 
-### ▼HashMap<E>とは
-&ensp;・`HashMap<E>`クラス　（java.utill　パッケージに含まれるため、インポートが必要）（E:Element（要素））<br>
-&ensp;・Mapインターフェースを実装したクラス<br>
-&ensp;・Map.ofメソッドと異なり、変更可能<br>
+## ▼HashMap<E>とは
+>・`HashMap<E>`クラス　（java.utill　パッケージに含まれるため、インポートが必要）（E:Element（要素））<br>
+>・Mapインターフェースを実装したクラス<br>
+>・Map.ofメソッドと異なり、変更可能<br>
 <br>
   
-#### ●特徴
-&ensp;・要素数が可変（要素の数にあわせて伸び縮みする配列　のようなイメージ）<br>
-&ensp;・要素数の重複が許容されない（キーが重複すると上書きされてしまうので自分で気をつける必要がある）<br>
-&ensp;・参照型のみ指定が可能<br>
+### ▼特徴
+>・要素数が可変（要素の数にあわせて伸び縮みする配列　のようなイメージ）<br>
+>・要素数の重複が許容されない（キーが重複すると上書きされてしまうので自分で気をつける必要がある）<br>
+>・参照型のみ指定が可能<br>
 <br>
 
-#### ▼コード
-●インスタンスの生成<br>
+### ▼コード
+#### ●インスタンスの生成
 ```java
 //ジェネリクス（<>）を用いて要素のデータ型を指定
   
@@ -30,7 +30,7 @@ var hmap = new HashMap<String, String> ();
 <br>
 
 
-●要素の追加<br>
+#### ●要素の追加
 ```java
 //putメソッドを利用
 jshell> hmap.put("a","A")
@@ -39,7 +39,7 @@ jshell> hmap.put("a","A")
 jshell> hmap.put("a","AA")
 ```
 
-●要素の削除<br>
+#### ●要素の削除
 ```java
 //要素を指定
 jshell> hmap.remove("a")
@@ -48,7 +48,7 @@ jshell> hmap.remove("a")
 jshell> hmap.clear()
 ```
 
-●要素の出力<br>
+#### ●要素の出力
 ```java
 //要素を指定
 jshell> hmap.get("a")
@@ -61,5 +61,5 @@ jshell> System.out.print(hmap.toString());
 
 //全ての要素を出力
 　　//for文
-
+```
 <br>
