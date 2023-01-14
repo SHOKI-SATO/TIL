@@ -10,10 +10,12 @@
 <br>
 <img width="1051" alt="スクリーンショット 2022-12-30 21 27 01" src="https://user-images.githubusercontent.com/81621944/210070137-61447f1f-0e79-4c2a-afff-4639be16f994.png"><br>
 <br>
+
 >・その状態で作業コピーを更新すると、更新するコミットに含まれる変更箇所と作業コピーの変更箇所が重複してい場合にコンフリクトが発生し、以下のメッセージが表示される<br>
 <br>
 <img width="1057" alt="スクリーンショット 2022-12-30 21 33 30" src="https://user-images.githubusercontent.com/81621944/210070649-0895fd75-3b05-4dd1-9f61-bb6afc159b7c.png"><br>
 <br>
+
 >・エクスプローラーの表示は以下のように増えている<br>
 >>・file0101.txt&emsp;&emsp;&ensp;：元のファイル　このファイルを修正する<br>
 >>・file0101.txt.mine：今回修正した内容が表示される（修正後に自動で消える）<br>
