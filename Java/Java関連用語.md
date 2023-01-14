@@ -7,6 +7,7 @@
 >・その後2010年にOracle社がSun Microsystems社を買収し、Oracle社を中心にJavaの開発が進めれている<br>
 >・毎年３月と９月に新しいバージョンがリリースされる、また３年毎にLTS（LongTermSupport、数年間メンテナンスが継続されるバージョン）がリリースされる<br>
 <br>
+
 ![image](https://user-images.githubusercontent.com/81621944/209455013-07c5db79-488c-4de4-8b85-ef928d730add.png)
 <br>
 
@@ -36,6 +37,7 @@
 >・JRE、JVM、JavaSE、コンパイラなどを含む<br>
 >・現在のパッケージはJavaSE（Standard Edition）のみ<br>
 <br>
+
 ![image](https://user-images.githubusercontent.com/81621944/209454682-0b0d3c22-8312-442c-9983-b0d26eff7e84.png)
 <br>
 
@@ -43,6 +45,7 @@
 >・現在Javaの開発が進められているプロジェクト（オープンソース）<br>
 >・Oracle社の他にも多くの会社、団体、個人がOpenJDKの開発に参加している<br>
 <br>
+
 ![image](https://user-images.githubusercontent.com/81621944/209454679-2d004e2c-bb49-49b1-8c43-69bffa0120ab.png)
 <br>
 
