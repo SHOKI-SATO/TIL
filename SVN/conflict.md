@@ -32,6 +32,7 @@
 <br>
 <img width="1338" alt="スクリーンショット 2022-12-30 23 46 19" src="https://user-images.githubusercontent.com/81621944/210082711-0be3890b-452f-41d5-80c2-2e65f7170c85.png"><br>
 <br>
+
 >④コンフリクトは解消したので、コミットする（作業コピーからファイル名.mine等のファイルは消えている）<br>
 <br>
 
