@@ -1,5 +1,5 @@
 # WinMerge
 
-### ▼WinMergeとは<br>
-&ensp;・Windows用比較・マージツール<br>
+## ▼WinMergeとは<br>
+>・Windows用比較・マージツール<br>
 <br>
