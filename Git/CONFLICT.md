@@ -1,17 +1,17 @@
 # CONFLICT
 
-### ▼コンフリクトとは<br>
-&ensp;・mergeした際に、同じファイルの同じ行に対して異なる編集を行ったときに発生する<br>
+## ▼コンフリクトとは
+>・mergeした際に、同じファイルの同じ行に対して異なる編集を行ったときに発生する<br>
 <br>
 
-#### ●表示
-&ensp;・ターミナル
+### ●表示
+>・ターミナル
 ```
 Auto-merging index.html
 CONFLICT (content): Merge conflict in index.html
 Automatic merge failed; fix conflicts and then commit the result.
 ```
-&ensp;・エディタ
+>・エディタ
 ```
 <h1>コンフリクトの例</h1>
 <<<<<<< HEAD
@@ -25,10 +25,10 @@ Automatic merge failed; fix conflicts and then commit the result.
 ```
 <br>
 
-#### ●解消方法
-&ensp;①`-git status`でコンフリクトが発生したファイルを探す（`both modified：　で表示されるファイル`）<br>
-&ensp;②ファイルの内容を最終的なものに書き換える<br>
-&ensp;③「<<」「==」「>>」の記述を削除する<br>
+### ●解消方法
+>①`-git status`でコンフリクトが発生したファイルを探す（`both modified：　で表示されるファイル`）<br>
+>②ファイルの内容を最終的なものに書き換える<br>
+>③「<<」「==」「>>」の記述を削除する<br>
 ```
 <h1>コンフリクトの例</h1>
 <p> # 作業ブランチでの変更内容</p>
@@ -37,8 +37,8 @@ Automatic merge failed; fix conflicts and then commit the result.
 ```
 <br>
 
-#### ●予防策
-&ensp;複数人で同じファイルを変更しない<br>
-&ensp;pullやmergeをする前に変更中の状態を無くしておく<br>
-&ensp;pullする際は、pullするブランチに移動してからpullする<br>
+### ●予防策
+>・複数人で同じファイルを変更しない<br>
+>・pullやmergeをする前に変更中の状態を無くしておく<br>
+>・pullする際は、pullするブランチに移動してからpullする<br>
 <br>
