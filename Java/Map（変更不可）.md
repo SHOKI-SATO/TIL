@@ -1,18 +1,19 @@
 # Map（変更不可）
 
-### ▼Map（変更不可）とは
-&ensp;・Map.of()メソッドで作成が可能なMp<br>
-&ensp;・nullを許容しない<br>
+## ▼Map（変更不可）とは
+>・Map.of()メソッドで作成が可能なMp<br>
+>・nullを許容しない<br>
 <br>
 
-●要素の格納<br>
+### ▼コード
+#### ●要素の格納
 ```java
 //キー/バリューの組み合わせでデータを格納（型が混在しても問題ない）
 jshell> Map num  = Map.of(1,"one",2,"two")
 num ==> {2=two, 1=one}
 ```
 
-●要素の取得<br>
+#### ●要素の取得
 ```java
 //要素を指定（キーを引数に指定）
 jshell> map.get(1)
@@ -24,13 +25,13 @@ jshell> System.out.println(list)
 [a, b, 1]
 ```
 
-●要素数の取得<br>
+#### ●要素数の取得
 ```java
 jshell> map.size()
 $5 ==> 2
 ```
 
-※変更は不可、nullを許容しない<br>
+>※変更は不可、nullを許容しない<br>
 ```java
 //変更（追加）は出来ない
 jshell> map.put(3,"three")
@@ -48,7 +49,7 @@ jshell> Map map = Map.of(1,1,2,2,3,null)
 ```
 <br>
 
-HashMapなど、変更のできるMapも用意されている<br>
+>HashMapなど、変更のできるMapも用意されている<br>
 <br>
 
 
