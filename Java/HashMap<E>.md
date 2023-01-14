@@ -25,8 +25,9 @@ HashMap<String> hmap = new HashMap<>();
 //varを使う場合は以下の書き方
 var hmap = new HashMap<String, String> ();
 ```
-※おおまかにMap型として捉えられることで、Map型で宣言された他インスタンス(LinkedHashMapなど)と型の違いを気にすることなくまとめて処理をおこなえたり、後で型変更をおこなってもコードの変更範囲が少ない<br>
-※[詳細はこちら](https://github.com/SHOKI-SATO/TIL/blob/main/%E5%A3%81/20230108_List%E3%81%A8ArrayList%E3%81%AE%E9%81%95%E3%81%84.md)　<br>
+  
+>※おおまかにMap型として捉えられることで、Map型で宣言された他インスタンス(LinkedHashMapなど)と型の違いを気にすることなくまとめて処理をおこなえたり、後で型変更をおこなってもコードの変更範囲が少ない<br>
+>※[詳細はこちら](https://github.com/SHOKI-SATO/TIL/blob/main/%E5%A3%81/20230108_List%E3%81%A8ArrayList%E3%81%AE%E9%81%95%E3%81%84.md)　<br>
 <br>
 
 
