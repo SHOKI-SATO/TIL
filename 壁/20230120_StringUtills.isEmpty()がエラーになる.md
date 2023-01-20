@@ -31,6 +31,7 @@
 ●参考URL<br>
 >https://docs.oracle.com/javase/jp/17/docs/api/java.base/java/util/Objects.html#isNull(java.lang.Object)
 >>Objects.isNull()のJavaDoc<br>
+
 >https://debimate.jp/2021/05/17/%E3%80%90%E5%8F%AF%E8%AA%AD%E6%80%A7%E5%90%91%E4%B8%8A%E3%80%91java-utils-objects-isnull%E3%81%AB%E3%82%88%E3%82%8Bnull%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF%E3%80%90%E9%96%A2%E6%95%B0%E5%9E%8B/
 >>Objects.isNull()は`StreamAPI`の記述で可読性を上げるために存在する（ただし、その場合も`null==値`でも書けるため、本当にどちらでもいい）<br>
 <br>
