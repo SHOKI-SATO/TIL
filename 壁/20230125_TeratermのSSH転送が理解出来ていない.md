@@ -30,4 +30,5 @@
 ●参考URL<br>
 >https://isleofhoso.com/teraterm-portforward-web/<br>
 >https://www.j-oosk.com/teraterm/port-forward/787/<br>
+>https://engineer-milione.com/tips/ladder.html<br>
 <br>
