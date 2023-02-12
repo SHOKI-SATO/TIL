@@ -1,5 +1,5 @@
 
-//インターフェースのサンプル
+//インターフェースのサンプル（このコードをインターフェースを利用し改善→InterfaceSample2.java）
 
 import java.util.List;
 
