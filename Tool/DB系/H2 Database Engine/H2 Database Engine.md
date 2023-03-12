@@ -34,7 +34,7 @@
 <br>
 
 >②`application.propaties`に以下の様に設定を記述<br>
-```propaties
+```shell
 # JDBCドライバのクラス名
 spring.datasource.driver-class-name = org.h2.Driver
 # データベースのパス　（「jdbc:h2:」+ファイルのパス）
