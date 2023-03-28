@@ -10,7 +10,7 @@
 >・falseの場合はelseタグで囲まれている部分を表示<br>
 <br>
 
-使用例
+#### ●使用例
 ```javascript
 <s:if test="%{hoge=='aaa'}">
 　　aaaaaaa
