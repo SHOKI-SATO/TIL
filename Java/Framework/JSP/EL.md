@@ -5,6 +5,37 @@
 >・HTMLファイルで文字列が書けるところであれば、どこでも書くことができる<br>
 <br>
 
+### ●役割と機能分担
+>○Javaオブジェクトの参照（[] ．）<br>
+>○算術演算（+ - * / %）<br>
+>○関係演算（== != < > <= >=）<br>
+>○論理演算（&& || !）<br>
+<br>
+
+>>※代入，反復，if/switch などに相当する制御構造はタグの役割として，ELか らは排除されている<br>
+>>これらは，coreライブラリに よってタグとして提供されている<br>
+<br>
+
+>>>○変数への代入<br>
+>>>>  変数textに文字列"Hello,World!" を代入しています．<br>
+>>>>  <c:set var="text" value="Hello,World!"/><br>
+<br>
+
+>>>○反復<br>
+>>>>  ループ変数をiとして，0から10まで繰り返します．<br>
+>>>>  <c:forEach var="i" begin="0" end="10"><br>
+>>>>    ・・・<br>
+>>>>  </c:forEach><br>
+<br>
+
+>>>○条件分岐<br>
+>>>>  x<y が成立する場合のみ，処理を実行します．<br>
+>>>>  <c:if test="${x<y}"><br>
+>>>>    ・・・<br>
+>>>>  </c:if><br>
+<br>
+
+
 ### ●定義方法
 ```jsp
 ${式}
@@ -13,15 +44,18 @@ ${式}
 
 ### ●記載例
 ```jsp
-${"Hello World"}
-<br>
-${'Hello World'}
-<br>
-${42 * 42}
-<br>
-I'm ${20 + 3} years old.
-<br>
-Hello World has ${"Hello World".length()} characters.
+${10 * 2}
+//20と　出力される
+```
+
+```jsp
+//Javaで以下を記述
+request.setAttribute("age", "25");
+//JSPで以下を記述
+${age}
+
+//25と出力される
+//<%=request.setAttribute("age", "25")%>　とするのと同じ
 ```
 <br>
 
