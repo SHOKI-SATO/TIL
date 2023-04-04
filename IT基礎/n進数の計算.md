@@ -46,3 +46,29 @@
 >※まとめると、引く数の　`①10の補数を求めて` `②補数と足し` `③桁あふれ（1000）を引く　`と引き算完了！<br>
 <br>
 
+### ●2進数の掛け算
+>○12×10<br>
+
+>①10を2^nで表せる数に分解<br>
+>>→2^3 + 2^1<br>
+<img width="853" alt="スクリーンショット 2023-04-04 22 09 58" src="https://user-images.githubusercontent.com/81621944/229802085-96a0cb0b-b943-49d9-9c5c-493825972bb1.png"><br>
+
+>②12をそれぞれにかける<br>
+>>→12×8 + 12×2 = 96 + 24 =120<br>
+<img width="1031" alt="スクリーンショット 2023-04-04 22 11 12" src="https://user-images.githubusercontent.com/81621944/229802307-b2e72e08-9dca-4e49-8eb7-ee0dd167e460.png"><br>
+<img width="924" alt="スクリーンショット 2023-04-04 22 12 19" src="https://user-images.githubusercontent.com/81621944/229802537-d5cb4fa0-bbe4-4a19-984a-031c38efb5a7.png"><br>
+<img width="879" alt="スクリーンショット 2023-04-04 22 12 42" src="https://user-images.githubusercontent.com/81621944/229802643-6ff05e9b-1215-49b6-b591-65fbeb6dd502.png"><br>
+
+### ●2進数の割り算
+>○15÷5<br>
+
+>①まず2進数に変換<br>
+>②元の数（この場合は15）を超えない範囲で左にシフトして引き算<br>
+>③計算結果から同様にシフトして引き算<br>
+>>（引けなくなるまでこの繰り返し）<br>
+
+>④ずらしたビット数を2^nとして足し算<br>
+>⑤足した結果が答え<br>
+<img width="1013" alt="スクリーンショット 2023-04-04 22 09 34" src="https://user-images.githubusercontent.com/81621944/229801855-852a6045-1009-4296-bd81-4695a27da842.png"><br>
+<br>
+
