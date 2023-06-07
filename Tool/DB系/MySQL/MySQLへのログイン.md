@@ -20,5 +20,5 @@ mysql -u root -pパスワード
 <br>
 
 
->>終了時は`quit`を入力<br>
+# ●終了時は`quit` または `exit`を入力
 
