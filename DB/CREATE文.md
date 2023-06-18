@@ -12,11 +12,10 @@ CREATE TABLE practice_info (カラム名1 データ型 制約、　カラム名2
 <br>
 
 ## ▼その他
-#### ●句
->・
+#### ●DEFAULT
+>・デフォルト値を指定
 ```sql
---
-
+CREATE TABLE practice_info (カラム名1 データ型 DEFAULT '晴れ'　);
 ```
 
 #### ●句
