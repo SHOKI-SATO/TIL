@@ -1,6 +1,6 @@
-# DELETE、TRUNCART、DROPの違い
+# DELETE、TRUNCATE、DROPの違い
 
-## ▼DELETE、TRUNCART、DROPの違い
+## ▼DELETE、TRUNCATE、DROPの違い
 >・テーブルやデータの削除に関する３つのSQLの違いを理解する<br>
 <br>
 
