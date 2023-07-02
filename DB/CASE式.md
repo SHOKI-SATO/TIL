@@ -1,4 +1,4 @@
-# サブクエリ
+# CASE式
 
 ## ▼CASE式とは
 >・SQLに使用可能な条件式<br>
@@ -23,4 +23,18 @@ SELECT
       ELSE "不合格"
   END
 FROM user;
+```
+
+
+```sql
+-- ORDER BY句に使用して並び替えを行う
+SELECT *
+  FROM employee
+  ORDER BY
+    CASE potision
+      WHEN "社員" THEN 1
+      WHEN "社長" THEN 2
+      ELSE 3
+    END
+;
 ```
