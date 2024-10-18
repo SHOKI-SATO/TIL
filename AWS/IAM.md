@@ -6,6 +6,9 @@
 >・ルートユーザは普段は使用せず、作業用のIAMユーザを使用する<br>
 <br>
 
+![image](https://github.com/user-attachments/assets/4633abe7-2fba-4ae9-af89-d3b99bf13583)
+
+
 ### ●ユーザの種類
 >・ルートユーザ<br>
 >>そのアカウントの全てのAWSサービスとAWSリソース全てに完全なアクセス権を持つ特権ユーザ<br>
