@@ -6,6 +6,9 @@
 >・100以上のサービスがある<br>
 <br>
 
+![image](https://github.com/user-attachments/assets/267aa0a9-c3fb-4d33-a7b7-61d4c16ac02a)
+
+
 ### ●特徴
 >・サービスが豊富<br>
 >>EC2やRDSなど、100以上のサービスが存在している<br>
