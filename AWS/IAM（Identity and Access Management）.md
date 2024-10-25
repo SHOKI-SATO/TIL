@@ -1,6 +1,7 @@
 # IAM
 
 ## ▼IAMとは
+>・Identity and Access Management<br>
 >・アクセス権元を管理するサービス<br>
 >・AWSアカウントを作成するとルートユーザが作成される<br>
 >・ルートユーザは普段は使用せず、作業用のIAMユーザを使用する<br>
