@@ -1,6 +1,6 @@
-# Amazon EBS
+# EBS
 
-## ▼Amazon EBSとは
+## ▼EBSとは
 >・Amazon Elastic Block Store<br>
 >・EC2インスタンスにアタッチして利用するAWSのストレージサービス（EC2インスタンスのデータの保管場所）<br>
 <br>
