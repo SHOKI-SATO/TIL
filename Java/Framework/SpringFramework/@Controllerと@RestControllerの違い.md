@@ -15,8 +15,6 @@
 >・＠RestControllerの主な用途はJson形式にデータを返却すること<br>
 <br>
 
-
-
 ### ●まとめ
 >HTMLをレスポンスする場合は`@Controller`<br>
 >JSONをレスポンスする場合（APIなど）は`@RestController`<br>
