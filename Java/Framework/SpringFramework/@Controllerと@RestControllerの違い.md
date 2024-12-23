@@ -19,3 +19,4 @@
 >HTMLをレスポンスする場合は`@Controller`<br>
 >JSONをレスポンスする場合（APIなど）は`@RestController`<br>
 <br>
+
